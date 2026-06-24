@@ -10,9 +10,16 @@ class Estudiante {
         $this->calificaciones = $calificaciones;
     }
 
-    // Método para calcular promedio
     public function calcularPromedio() {
         return array_sum($this->calificaciones) / count($this->calificaciones);
+    }
+
+    // Nuevo método
+    public function mostrarInfo() {
+        echo "<h3>Estudiante</h3>";
+        echo "Nombre: $this->nombre <br>";
+        echo "Edad: $this->edad <br>";
+        echo "Promedio: " . $this->calcularPromedio() . "<br><br>";
     }
 }
 ?>
