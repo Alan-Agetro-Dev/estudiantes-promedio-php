@@ -16,7 +16,7 @@ Aplicar:
 
 ## 🚀 Ejecución
 Ejecutar en:
-http://localhost/proyecto-estudiantes
+http://localhost:3000/index.php
 
 ## 👨‍💻 Autor
 Alan Humberto Ortega Aguayo
